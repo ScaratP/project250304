@@ -1,0 +1,161 @@
+我的課表在網頁中<tbody></tbody>長這樣，我該如何獲得我需要的資料
+
+<tbody><tr class="NTTU_GridView_Header">
+			<th scope="col" style="width:80px;">section_</th><th scope="col" style="width:100px;">MON</th><th scope="col" style="width:100px;">TUE</th><th scope="col" style="width:100px;">WED</th><th scope="col" style="width:100px;">THU</th><th scope="col" style="width:100px;">FRI</th><th scope="col" style="width:100px;">SAT</th><th scope="col" style="width:100px;">SUN</th>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>0<br>07:10:00<br>08:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>1<br>08:10:00<br>09:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>2<br>09:10:00<br>10:00:00</center></td>
+			<td>&nbsp;</td>
+			<td><span id="GridView1_ctl04_Label1" title="科目名稱：哲學概論
+開課班級：[通識教育中心]通識一
+授課教師：黃振豊
+必選修：必選修
+學分：3
+場地：知本校區－師範學院二樓－TA202課程與教學發展教室
+管理單位：教育學系－林冠妏－無聯絡電話,教育學系－劉秀宣－無聯絡電話,教育學系－學務系統系所助理測試－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">哲學概論<br></span></td>
+
+<td><span id="GridView1_ctl04_Label2" title="科目名稱：機器學習
+開課班級：[資工系]資工三甲
+授課教師：楊弘章
+必選修：選修
+學分：3
+場地：知本校區－理工學院五樓－SEC506電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">機器學習<br></span></td><td><span id="GridView1_ctl04_Label3" title="科目名稱：可程式化晶片系統設計
+開課班級：[資工系]資工三甲
+授課教師：賴盈勳
+必選修：選修
+學分：3
+場地：知本校區－理工學院五樓－SEC506電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">可程式化晶片系統設計<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>3<br>10:10:00<br>11:00:00</center></td><td>&nbsp;</td><td><span id="GridView1_ctl05_Label4" title="科目名稱：哲學概論
+開課班級：[通識教育中心]通識一
+授課教師：黃振豊
+必選修：必選修
+學分：3
+場地：知本校區－師範學院二樓－TA202課程與教學發展教室
+管理單位：教育學系－林冠妏－無聯絡電話,教育學系－劉秀宣－無聯絡電話,教育學系－學務系統系所助理測試－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">哲學概論<br></span></td><td><span id="GridView1_ctl05_Label5" title="科目名稱：機器學習
+開課班級：[資工系]資工三甲
+授課教師：楊弘章
+必選修：選修
+學分：3
+場地：知本校區－理工學院五樓－SEC506電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">機器學習<br></span></td><td><span id="GridView1_ctl05_Label6" title="科目名稱：可程式化晶片系統設計
+開課班級：[資工系]資工三甲
+授課教師：賴盈勳
+必選修：選修
+學分：3
+場地：知本校區－理工學院五樓－SEC506電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">可程式化晶片系統設計<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>4<br>11:10:00<br>12:00:00</center></td><td>&nbsp;</td><td><span id="GridView1_ctl06_Label7" title="科目名稱：哲學概論
+開課班級：[通識教育中心]通識一
+授課教師：黃振豊
+必選修：必選修
+學分：3
+場地：知本校區－師範學院二樓－TA202課程與教學發展教室
+管理單位：教育學系－林冠妏－無聯絡電話,教育學系－劉秀宣－無聯絡電話,教育學系－學務系統系所助理測試－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">哲學概論<br></span></td><td><span id="GridView1_ctl06_Label8" title="科目名稱：機器學習
+開課班級：[資工系]資工三甲
+授課教師：楊弘章
+必選修：選修
+學分：3
+場地：知本校區－理工學院五樓－SEC506電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">機器學習<br></span></td><td><span id="GridView1_ctl06_Label9" title="科目名稱：可程式化晶片系統設計
+開課班級：[資工系]資工三甲
+授課教師：賴盈勳
+必選修：選修
+學分：3
+場地：知本校區－理工學院五樓－SEC506電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">可程式化晶片系統設計<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>5<br>12:10:00<br>13:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>6<br>13:10:00<br>14:00:00</center></td><td>&nbsp;</td><td><span id="GridView1_ctl08_Label10" title="科目名稱：資訊專題(一)
+開課班級：[資工系]資工三甲
+授課教師：王忍成,李俊堅,陳明僑
+必選修：選修
+學分：2
+場地：知本校區－理工學院三樓－SEC302電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">資訊專題(一)<br></span></td><td><span id="GridView1_ctl08_Label11" title="科目名稱：資訊專題(一)
+開課班級：[資工系]資工三甲
+授課教師：王忍成,李俊堅,陳明僑
+必選修：選修
+學分：2
+場地：知本校區－理工學院三樓－SEC302電腦教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">資訊專題(一)<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>7<br>14:10:00<br>15:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td><span id="GridView1_ctl09_Label12" title="科目名稱：平行運算
+開課班級：[資工系]資工三甲
+授課教師：蔡駿逸
+必選修：選修
+學分：3
+場地：知本校區－理工學院四樓－SEC404專業實驗教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">平行運算<br></span></td><td><span id="GridView1_ctl09_Label13" title="科目名稱：人工智慧導論
+開課班級：[資工系]資工三甲
+授課教師：張義鋒
+必選修：選修
+學分：3
+場地：其它
+管理單位：無相關資訊
+是否選上：已選上" style="background-color:Yellow;padding:10px;">人工智慧導論<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>8<br>15:10:00<br>16:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td><span id="GridView1_ctl10_Label14" title="科目名稱：平行運算
+開課班級：[資工系]資工三甲
+授課教師：蔡駿逸
+必選修：選修
+學分：3
+場地：知本校區－理工學院四樓－SEC404專業實驗教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">平行運算<br></span></td><td><span id="GridView1_ctl10_Label15" title="科目名稱：人工智慧導論
+開課班級：[資工系]資工三甲
+授課教師：張義鋒
+必選修：選修
+學分：3
+場地：其它
+管理單位：無相關資訊
+是否選上：已選上" style="background-color:Yellow;padding:10px;">人工智慧導論<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>9<br>16:10:00<br>17:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td><span id="GridView1_ctl11_Label16" title="科目名稱：平行運算
+開課班級：[資工系]資工三甲
+授課教師：蔡駿逸
+必選修：選修
+學分：3
+場地：知本校區－理工學院四樓－SEC404專業實驗教室
+管理單位：資訊工程學系－林奇福－無聯絡電話
+是否選上：已選上" style="background-color:Yellow;padding:10px;">平行運算<br></span></td><td><span id="GridView1_ctl11_Label17" title="科目名稱：人工智慧導論
+開課班級：[資工系]資工三甲
+授課教師：張義鋒
+必選修：選修
+學分：3
+場地：其它
+管理單位：無相關資訊
+是否選上：已選上" style="background-color:Yellow;padding:10px;">人工智慧導論<br></span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>A<br>17:10:00<br>18:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>B<br>18:10:00<br>19:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>C<br>19:10:00<br>20:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>D<br>20:10:00<br>21:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>E<br>21:10:00<br>22:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="NTTU_GridView_Row">
+			<td><center>*<br>00:00:00<br>00:00:00</center></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</tbody>
