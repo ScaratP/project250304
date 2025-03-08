@@ -80,8 +80,8 @@ class ScheduleDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATAB
             id = cursor.getInt(cursor.getColumnIndexOrThrow(COLUMN_ID)),
             course = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_COURSE)),
             date = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_DATE)),
-            startTime = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_START_TIME)),
-            endTime = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_END_TIME)),
+            startTime = cursor.getLong(cursor.getColumnIndexOrThrow(COLUMN_START_TIME)),
+            endTime = cursor.getLong(cursor.getColumnIndexOrThrow(COLUMN_END_TIME)),
             isolation = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_ISOLATION))
         )
     }
