@@ -85,7 +85,7 @@ fun NotificationButton(){
 
 //這個可以顯示&登入
 @Composable
-fun WebViewScreen(url: String) { 
+fun WebViewScreen(url: String) {
     AndroidView(factory = { context ->
         WebView(context).apply {
             webViewClient = WebViewClient()
@@ -117,7 +117,7 @@ fun sendNotification(context: Context){
         .setContentText("該去上課了!!")
         .setPriority(NotificationCompat.PRIORITY_HIGH)
 
-    with(NotificationManagerCompat.from(context)){
+    with(NotificationManagerCompat.from(context)){//
         notify(1,builder.build())
     }
 }
