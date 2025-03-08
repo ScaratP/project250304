@@ -117,7 +117,7 @@ fun sendNotification(context: Context){
         .setContentText("該去上課了!!")
         .setPriority(NotificationCompat.PRIORITY_HIGH)
 
-    with(NotificationManagerCompat.from(context)){//
+    with(NotificationManagerCompat.from(context)){
         notify(1,builder.build())
     }
 }
