@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun NotificationButton(){
-    val context = LocalContext.current
+    val context = LocalContext.current //取得context
 
     Surface (
         modifier = Modifier.fillMaxSize(),
@@ -110,6 +110,7 @@ fun sendNotification(context: Context){
             return
         }
     }
+    //建立通知
     val channelId = "notify_id"
     val builder = NotificationCompat.Builder(context,channelId)
         .setSmallIcon(android.R.drawable.ic_dialog_email)
